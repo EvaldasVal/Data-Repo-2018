@@ -1,0 +1,5 @@
+@import '~@angular/material/prebuilt-themes/purple-green.css';
+
+.mat-toolbar[_ngcontent-c5] {
+    color: cyan;
+}

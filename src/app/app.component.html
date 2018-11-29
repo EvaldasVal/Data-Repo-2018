@@ -1,0 +1,29 @@
+
+<div [ngStyle]="{background: 'url(./src/assets/neo.jpg)'}">
+<mat-toolbar color="black"> 
+    <mat-toolbar-row>
+            <span class="title-center" [ngClass]="{'primary-color' : toggle.checked}">
+        <h2>Flash FM</h2>
+    </span>
+      </mat-toolbar-row>
+
+      <!--Slide selector for color change-->
+      <mat-slide-toggle #toggle [color]="primary" [checked]="true"></mat-slide-toggle>
+<h4 [ngClass]="{'primary-color' : toggle.checked}">Cyan Theme</h4>
+    
+      <mat-toolbar-row>
+
+  <button mat-button [routerLink]="['/create']" [ngClass]="{'primary-color' : toggle.checked}">New Request</button>
+  <button mat-button [routerLink]="['/list']" matBadge="2" matBadgePosition="after" matBadgeColor="accent" [ngClass]="{'primary-color' : toggle.checked}">Request Que</button>
+</mat-toolbar-row>
+ </mat-toolbar>
+
+ 
+ 
+<router-outlet></router-outlet>
+
+<!--progress bar for style-->
+<mat-progress-bar mode="buffer" color="accent"></mat-progress-bar>
+
+
+</div>

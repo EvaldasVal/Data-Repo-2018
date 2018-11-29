@@ -1,0 +1,30 @@
+<mat-toolbar color="black">Request Editor</mat-toolbar>
+<mat-card>
+  <form (submit)="onEditPost(postForm)" #postForm="ngForm">
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="title"
+        ngModel={{post.title}}
+        required
+        #title="ngModel"
+        >
+    </mat-form-field>
+    <mat-form-field>
+      <textarea
+        matInput
+        rows="4"
+        name="content"
+        ngModel={{post.content}}
+        required
+        #content="ngModel">
+      </textarea>
+      <mat-error *ngIf="content.invalid">Please enter the author of the song here.</mat-error>
+    </mat-form-field>
+    <button
+      mat-raised-button
+      color="accent"
+      type="submit">Update Request</button>
+  </form>
+</mat-card>
