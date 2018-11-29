@@ -8,9 +8,10 @@ New Request page screenshot!
 ![alt text](https://i.imgur.com/YhAyTcQ.png)
 
 Request Que screenshot!
-https://imgur.com/a/2NzIK6b
+![alt text](https://i.imgur.com/oN7p6cq.png)
 
 Editor Page sceenshot!
-https://imgur.com/a/SxGiw4e
+![alt text](https://i.imgur.com/2DTeH7I.png)
+
 
 
