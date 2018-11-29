@@ -5,7 +5,7 @@ All the record are held on the database at mLabs.com.
 User can also change change theme to cyan by swicthing a "Cyan Theme" slide.
 
 New Request page screenshot!
-https://imgur.com/a/valyMYe
+![alt text](https://imgur.com/a/valyMYe)
 
 Request Que screenshot!
 https://imgur.com/a/2NzIK6b
